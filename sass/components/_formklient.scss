@@ -1,0 +1,109 @@
+.klient-list{
+    font-style: $font-style-one;
+    font-weight: $font-weight-one;
+    font-size: $pixeli-eight;
+    line-height: $pixeli-twenty-eight;
+    text-align: $direkt-two;
+    letter-spacing: $spacing-one;
+    color: getColor('color-textcol');
+    margin-top: 40px;
+    margin-bottom: 2px;
+}
+.klien-list-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.klient-list-text{
+    font-style: $font-style-one;
+    font-weight: $font-weight-two;
+    font-size: $pixeli-twenty-seven;
+    line-height: $pixeli-nine;
+    letter-spacing: $spacing-four;
+    color: getColor('color-primaty');
+    margin: 10px 0px 0px 0px;
+}
+.klient-svg-icon{
+    width: 18px;
+    height: 18px;
+    position: fixed;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+.klient-list-input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid getColor('color-raster');
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    padding-left: 40px;
+}
+.klient-list-textarea{
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;
+    border: 1px solid getColor('color-raster');
+    border-radius: 4px;
+    resize: none;
+    padding: 12px 16px;
+}
+input:focus,
+textarea:focus{
+    outline: none;
+    border-color: getColor('color-hovercol');
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+label:focus-within{
+    fill: getColor('color-hovercol');
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.klient-policy{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.modal-form-policy-text::before{
+    position: relative;
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 15px;
+    border: 1px solid getColor('color-textcol');
+    margin:-3px;
+}
+.modal-form-policy:checked + .modal-form-policy-text::before{
+    border: none;
+    background-image: url(../images/vector.svg);
+    background-color: getColor('color-hovercol');
+    border: 1px solid getColor('color-bacground');
+}
+.visually-hidden{
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+.klient-policy-plik{
+    color: getColor('color-hovercol');
+}
+.klient-button{
+    width: 200px;
+    height: 50px;
+    background: getColor('color-hovercol');
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: getColor('color-bacground');
+    margin-top: 10px;
+}

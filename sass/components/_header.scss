@@ -1,0 +1,55 @@
+
+.header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 767px){
+    .header{
+        height: 60px;
+        box-sizing: border-box;
+        position: relative;
+        max-width: 767px;
+        margin: auto;
+        padding: 0px 15px;
+    }
+    .js-open-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FFFFFF;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+        border: none;
+        border-radius: 50%;
+        position: absolute;
+        right: 15px;
+    }
+    .js-open-menu:hover,
+    .js-open-menu:focus {
+        fill: getColor('color-hovercol');
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }   
+}
+@media screen and(min-width:768px) {
+    .js-open-menu,
+    .js-menu-container{
+        display: none;
+    }
+    .header{
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+}
+
+
+
+
+
+
+
+

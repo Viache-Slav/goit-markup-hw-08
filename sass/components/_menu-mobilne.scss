@@ -1,0 +1,122 @@
+.js-menu-container{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    transform: translateX(-150%) rotate(360deg) scale(0.01);
+    transition: transform 250ms;
+}
+.is-open{
+    transform: translateX(0) rotate(0) scale(1);
+}
+.modal-mobile{
+    width: 100%;
+    height: 100%;
+    background-color: getColor('color-bacground');
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.js-close-menu{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.icon-close-button{
+    width: 24px;
+    height: 24px;
+}
+.icon-close-button:hover,
+.icon-close-button:focus{
+    fill: getColor('color-hovercol');
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile__menu{
+    list-style: none;
+    margin: 0%;
+    padding: 32px 24px;
+}
+.mobile__menu--agencja{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    margin: 16px;
+    cursor: pointer;
+    width: 153px;
+    height: 48px;
+}
+.mobile__menu--portfolio{
+    @extend .mobile__menu--agencja;
+    width: 219px;
+    font-size: 40px;
+}
+.mobile__menu--Kontakt{
+    @extend .mobile__menu--agencja;
+    width: 192px;
+}
+.mobile__menu--agencja:hover,
+.mobile__menu--agencja:focus{
+    color: getColor('color-hovercol');
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile__kontakt--social{
+    @extend .mobile__menu;
+    padding-top: 250px;
+}
+.mobile__kontakt--tel{
+    @extend .mobile__menu--agencja;
+    width: 270px;
+    height: 40px;
+    font-size: 34px;
+    line-height: 40px;
+    color: getColor('color-hovercol');
+}
+.mobile__kontakt--mail{
+    @extend .mobile__menu--agencja;
+    width: 231px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    color: getColor('color-primaty');
+    margin-bottom: 0%
+}
+.mobile__menu--social{
+    @extend .mobile__menu;
+    display: flex;
+    justify-content: space-between;
+    width: 357px;
+    height: 22px;
+    color: getColor('color-hovercol');
+    padding-left: 40px;
+}
+.mobile__social--link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    height: 22px;
+}
+.border__inst{
+    width: 85px;
+}
+.border__twitter{
+    width: 59px;
+}
+.border__facebook{
+    width: 81px;
+}
+.border__linkedin{
+    width: 72px;
+}

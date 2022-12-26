@@ -1,0 +1,10 @@
+:root{
+    --brand-color: getColor('color-bacground');
+    --brand-text: $font-family-two;
+}
+
+.body{
+    margin: $procent-one;
+    background-color: var(--brand-color);
+    font-family: var(--brand-text);
+}

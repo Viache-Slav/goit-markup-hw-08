@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+    margin: auto;
+ }
+
+
+ @media screen and (min-width: 480px) and (max-width: 767px) {
+    .container{
+        max-width: 450px;
+    }
+    .adaptive{
+     width: 450px;
+    }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .container{
+        max-width: 768px;
+    }
+    .adaptive{
+    width: 738px;
+    }
+ }
+
+ @media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1170px;
+        min-width: 738px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .adaptive{
+    width: 1170px;
+    }
+ }
+
+
+
+
+
+
