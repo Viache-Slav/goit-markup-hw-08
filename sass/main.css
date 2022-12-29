@@ -46,15 +46,14 @@
   text-decoration: none;
   text-decoration-line: none;
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
 .logo {
   color: #2196F3;
+  margin-right: 90px;
 }
 
 .header__logo--color {
@@ -72,10 +71,8 @@
   width: 140px;
   height: 28px;
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #2196F3;
@@ -102,27 +99,26 @@
 .visit {
   padding-inline-start: 0px;
   list-style-type: none;
-  width: 240px;
-  height: 70px;
+  width: 246px;
+  height: 81px;
 }
 
 .visit__info {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .visit__info--address {
   color: #fff;
   text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
 }
 
 .footer__link--mail, .footer__link--tel {
-  font-style: normal;
-  font-weight: 500;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
@@ -201,14 +197,13 @@
   box-sizing: border-box;
   background-color: #2F303A;
   margin: 20px auto;
+  color: #fff;
 }
 
 .footer__contacts--tityl {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -228,11 +223,8 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   background-color: #2196F3;
   color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -247,8 +239,9 @@
 
 .footer__button--icon {
   width: 24px;
-  height: 24px;
+  height: 30px;
   margin-left: 24px;
+  margin-bottom: 5px;
 }
 
 @media screen and (max-width: 767px) {
@@ -298,14 +291,14 @@
     align-items: center;
   }
   .visit {
-    margin-top: 40px;
+    margin-top: 60px;
   }
   .footer__link--mail, .footer__link--tel {
     margin-left: 0%;
   }
   .social__section--footer {
-    margin-left: 78px;
-    margin-right: 78px;
+    margin-left: 73px;
+    margin-right: 73px;
   }
   .social__tityl--footer {
     margin-left: 0%;
@@ -372,10 +365,9 @@
 
 .mobile__menu--agencja, .mobile__kontakt--mail, .mobile__kontakt--tel, .mobile__menu--Kontakt, .mobile__menu--portfolio {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 40px;
-  line-height: 47px;
+  line-height: 1.18;
   letter-spacing: 0.02em;
   margin: 16px;
   cursor: pointer;
@@ -418,7 +410,7 @@
   width: 231px;
   height: 28px;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   color: #757575;
   margin-bottom: 0%;
 }
@@ -434,10 +426,9 @@
 
 .mobile__social--link {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.22;
   letter-spacing: 0.02em;
   height: 22px;
 }
@@ -476,10 +467,8 @@
   margin-bottom: 16px;
   color: #212121;
   cursor: pointer;
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
@@ -523,10 +512,9 @@
   }
 }
 .klient-list {
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -542,10 +530,8 @@
 }
 
 .klient-list-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.01em;
   color: #757575;
   margin: 10px 0px 0px 0px;
@@ -570,6 +556,11 @@
 }
 
 .klient-list-textarea {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
   width: 100%;
   height: 120px;
   box-sizing: border-box;
@@ -577,6 +568,7 @@
   border-radius: 4px;
   resize: none;
   padding: 12px 16px;
+  margin-top: 4px;
 }
 
 input:focus,
@@ -591,42 +583,54 @@ label:focus-within {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.klient-policy {
+.custom--checkbox {
+  position: relative;
   display: flex;
+  align-items: center;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-.modal-form-policy-text::before {
-  position: relative;
-  display: inline-block;
-  content: "";
-  width: 16px;
+.custom--checkbox input[type=checkbox] {
+  background: #fff;
+  margin: 0;
+  appearance: none;
+  border: 2px solid #666;
+  width: 15px;
   height: 15px;
-  border: 1px solid #212121;
-  margin: -3px;
+  border-radius: 4px;
+  margin-right: 8px;
+  margin-left: 1px;
 }
 
-.modal-form-policy:checked + .modal-form-policy-text::before {
-  border: none;
-  background-image: url(../images/vector.svg);
-  background-color: #2196F3;
+.custom--checkbox img {
+  position: absolute;
+  left: 55px;
+  opacity: 0;
+  transition: opacity 250ms ease-in-out;
+  width: 15px;
+  height: 15px;
   border: 1px solid #fff;
 }
 
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
+.custom--checkbox input[type=checkbox]:checked + img {
+  opacity: 1;
+}
+
+.klient-policy {
+  display: flex;
+  justify-content: center;
 }
 
 .klient-policy-plik {
   color: #2196F3;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .klient-button {
@@ -636,10 +640,8 @@ label:focus-within {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
-  font-style: normal;
-  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   color: #fff;
   margin-top: 10px;
@@ -648,18 +650,17 @@ label:focus-within {
 .header__link {
   list-style-type: none;
   display: flex;
+  margin-left: 210px;
+  padding: 0;
 }
 
 .link__menu--nav {
   margin-left: 23px;
-  margin-right: 23px;
 }
 
 .header__link--mail, .header__link--tel {
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
@@ -684,7 +685,7 @@ label:focus-within {
 
 .header__link--mail:hover,
 .header__link--tel:hover {
-  fill: #2196F3;
+  fill: rgb(33, 150, 243);
   color: #2196F3;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -719,6 +720,8 @@ label:focus-within {
   list-style-type: none;
   margin-top: 30px;
   margin-bottom: 0px;
+  margin-right: 90px;
+  padding: 0;
 }
 
 .menu__nav {
@@ -734,10 +737,8 @@ label:focus-within {
 }
 
 .header__navigation--agencies, .header__navigation--contacts, .header__navigation--portfolio {
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
@@ -752,6 +753,10 @@ label:focus-within {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.active {
+  color: #2196F3;
+}
+
 @media screen and (max-width: 767px) {
   .header__navigation {
     display: none;
@@ -761,8 +766,15 @@ label:focus-within {
   height: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   box-sizing: border-box;
+}
+
+.header__borders {
+  position: absolute;
+  margin-top: 80px;
+  width: 100%;
+  border-bottom: 1px solid #ECECEC;
 }
 
 @media screen and (max-width: 767px) {
@@ -916,10 +928,8 @@ label:focus-within {
 }
 
 .production__tytuł {
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -940,10 +950,8 @@ label:focus-within {
 }
 
 .production__box--text {
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -989,21 +997,19 @@ label:focus-within {
 }
 
 .archive__title {
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
   margin: 30px auto 10px;
+  width: 270px;
+  height: 16px;
 }
 
 .archive__text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
   list-style-type: none;
@@ -1064,10 +1070,8 @@ label:focus-within {
 }
 
 .clients__tytul {
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -1181,10 +1185,8 @@ label:focus-within {
 }
 
 .state__tytul {
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -1213,20 +1215,17 @@ label:focus-within {
 }
 
 .card__name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 
 .card__department {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -1254,9 +1253,10 @@ label:focus-within {
   justify-content: center;
   width: 44px;
   height: 44px;
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   border-radius: 50%;
   transition: background-color 250ms;
+  fill: #AFB1B8;
 }
 
 .social__link:hover,
@@ -1274,7 +1274,7 @@ label:focus-within {
 @media screen and (max-width: 767px) {
   .state__tytul {
     font-size: 28px;
-    line-height: 33px;
+    line-height: 1.18;
   }
   .state__photo {
     flex-direction: column;
@@ -1294,7 +1294,7 @@ label:focus-within {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .state__tytul {
     font-size: 28px;
-    line-height: 33px;
+    line-height: 1.18;
   }
   .state__photo {
     flex-wrap: wrap;
@@ -1326,11 +1326,8 @@ label:focus-within {
 }
 
 .title__text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
   font-size: 26px;
-  line-height: 42px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -1345,11 +1342,9 @@ label:focus-within {
   width: 200px;
   height: 50px;
   margin-top: 30px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   color: #FFFFFF;
   border: none;
@@ -1370,7 +1365,7 @@ label:focus-within {
 @media screen and (min-width: 1200px) {
   .title__text {
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
   }
   .title {
     height: 600px;
@@ -1414,7 +1409,7 @@ label:focus-within {
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 294px;
+  height: 295px;
   background-color: #2196F3;
   transform: translatey(100%);
   transition: transform 250ms ease;
@@ -1423,10 +1418,8 @@ label:focus-within {
 }
 
 .overlay__text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 1.56;
   letter-spacing: 0.03em;
   color: #fff;
   width: 402px;
@@ -1441,25 +1434,17 @@ label:focus-within {
 }
 
 .sites__card--title {
-  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
   text-decoration: none;
   margin: 0%;
 }
 
-.sites__card--title:hover,
-.sites__card--type:hover {
-  text-decoration: underline;
-  text-decoration-color: #2196F3;
-}
-
 .sites__card--type {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
   text-decoration: none;

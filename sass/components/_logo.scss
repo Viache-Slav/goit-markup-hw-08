@@ -2,15 +2,14 @@
     text-decoration: $paradiz;
     text-decoration-line: $paradiz;
     font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
 .logo{
     color: getColor('color-hovercol');
+    margin-right: 90px;
 }
 
 .header__logo--color{
@@ -27,10 +26,8 @@
     width: 140px;
     height: 28px;
     font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: getColor('color-hovercol');

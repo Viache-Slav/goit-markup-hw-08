@@ -10,76 +10,77 @@
 </head>
 <body class="body">
 
-    <header class="container header">
-        <a href="WebStudio" class="logo">
+    <header class="header">
+        <a href="index.html" class="logo">
             Web<span class="header__logo--color">Studio</span></a>
-        <nav>
-            <ul class="header__navigation">
-                <li class="menu__nav">
-                    <a href="index.html" class="header__navigation--agencies">Agencja</a>
+            <nav>
+                <ul class="header__navigation">
+                    <li class="menu__nav">
+                        <a href="index.html" class="header__navigation--agencies">Agencja</a>
+                    </li>
+                    <li class="menu__nav">
+                        <a href="portfolio.html"class="header__navigation--portfolio active">Portfolio</a>
+                    </li>
+                    <li class="menu__nav">
+                        <a href="#Kontakt"class="header__navigation--contacts">Kontakty</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header__link">
+                <li class="link__menu--nav">
+                    <a href="info@devstudio.com"class="header__link--mail">
+                        <svg class="header__mail--icon">
+                            <use href="./images/icons.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com</a>
                 </li>
-                <li class="menu__nav">
-                    <a href="portfolio.html"class="header__navigation--portfolio active">Portfolio</a>
-                </li>
-                <li class="menu__nav">
-                    <a href="#Kontakt"class="header__navigation--contacts">Kontakty</a>
+                <li class="link__menu--nav">
+                    <a href="tel:+48111111111"class="header__link--tel">
+                        <svg class="header__tel--icon">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>
+                        +48 111 111 111</a>
                 </li>
             </ul>
-        </nav>
-        <ul class="header__link">
-            <li class="link__menu--nav">
-                <a href="info@devstudio.com"class="header__link--mail">
-                    <svg class="header__mail--icon">
-                        <use href="./images/icons.svg#icon-envelope"></use>
-                    </svg>
-                    info@devstudio.com</a>
-            </li>
-            <li class="link__menu--nav">
-                <a href="tel:+48111111111"class="header__link--tel">
-                    <svg class="header__tel--icon">
-                        <use href="./images/icons.svg#icon-smartphone"></use>
-                    </svg>
-                    +48 111 111 111</a>
-            </li>
-        </ul>
-        <div class="js-menu-container">
-            <div class="modal-mobile">
-                <button type="button" class="js-close-menu">
-                    <svg class="icon-close-button">
-                        <use href="./images/icons.svg#icon-close-btn"></use>
-                    </svg>
-                </button>
-                <ul class="mobile__menu">
-                    <li class="mobile__menu--agencja">Agencja</li>
-                    <li class="mobile__menu--portfolio">Portfolio</li>
-                    <li class="mobile__menu--Kontakt">Kontakt</li>
-                </ul>
-                <ul class="mobile__kontakt--social">
-                    <li class="mobile__kontakt--tel">+48 111 111 111</li>
-                    <li class="mobile__kontakt--mail">info@devstudio.com</li>
-                </ul>
-                <ul class="mobile__menu--social">
-                    <li class="mobile__social--link border__inst">Instagram</li>
-                    <li class="mobile__social--link border__twitter">Twitter</li>
-                    <li class="mobile__social--link border__facebook">Facebook</li>
-                    <li class="mobile__social--link border__linkedin">LinkedIn</li>
-                </ul>
+            <div class="js-menu-container">
+                <div class="modal-mobile">
+                    <button type="button" class="js-close-menu">
+                        <svg class="icon-close-button">
+                            <use href="./images/icons.svg#icon-close-btn"></use>
+                        </svg>
+                    </button>
+                    <ul class="mobile__menu">
+                        <li class="mobile__menu--agencja">Agencja</li>
+                        <li class="mobile__menu--portfolio">Portfolio</li>
+                        <li class="mobile__menu--Kontakt">Kontakt</li>
+                    </ul>
+                    <ul class="mobile__kontakt--social">
+                        <li class="mobile__kontakt--tel">+48 111 111 111</li>
+                        <li class="mobile__kontakt--mail">info@devstudio.com</li>
+                    </ul>
+                    <ul class="mobile__menu--social">
+                        <li class="mobile__social--link border__inst">Instagram</li>
+                        <li class="mobile__social--link border__twitter">Twitter</li>
+                        <li class="mobile__social--link border__facebook">Facebook</li>
+                        <li class="mobile__social--link border__linkedin">LinkedIn</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <button type="button"
-            class="js-open-menu">
-            <svg
-                width="24"
-                height="24"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                    fill-rule="evenodd"
-                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                    clip-rule="evenodd">
-                </path>
-            </svg>
-        </button>
+            <button type="button"
+                class="js-open-menu">
+                <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd">
+                    </path>
+                </svg>
+            </button>
+        <div class="header__borders"></div>
     </header>
 
     <main id="Portfolio.html" class="portfolio">
@@ -253,16 +254,16 @@
 
     <footer id="Kontakt" class="footer ">
         <div class="container">
-            <a href="WebStudio" class="footer__logo">
+            <a href="index.html" class="footer__logo">
                 Web<span class="footer__logo--color">Studio</span>
             </a>
             <address>
                 <ul class="visit">
                     <li class="visit__info">
-                        <a href="x m. Warszawa, Aleje Jerozolimskie 21" class="visit__info--address"> x m. Warszawa, Aleje Jerozolimskie 21</a>
+                        <a href="m. Warszawa, Aleje Jerozolimskie 21" class="visit__info--address"> m. Warszawa, Aleje Jerozolimskie 21</a>
                     </li>
                     <li class="visit__info">
-                        <a href="info@devstudio.com"class="footer__link--mail">info@devstudio.com</a>
+                        <a href="info@example.com"class="footer__link--mail">info@example.com</a>
                     </li>
                     <li class="visit__info">
                         <a href="tel:+48111111111"class="footer__link--tel">+48 111 111 111</a>

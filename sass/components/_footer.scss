@@ -5,24 +5,23 @@
 .visit{
     padding-inline-start: 0px;
     list-style-type: none;
-    width: 240px;
-    height: 70px;
+    width: 246px;
+    height: 81px;
 }
 .visit__info{
-    font-style: $style;
-    font-weight: $font-weight-two;
     font-size: $pixeli-nine;
-    line-height: $pixeli-eleven;
+    line-height: 1.71;
     letter-spacing: $spacing-one;
 }
 .visit__info--address{
     color: getColor('color-bacground');
     text-decoration: $paradiz;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 .footer__link--mail{
-    font-style: $font-style-one;
-    font-weight: $font-weight-four;
-    line-height: $pixeli-eighteen;
+    font-size: 14px;
+    line-height: 1.71;
     letter-spacing: $spacing-three;
     color: getColor('color-primaty');
     text-decoration: $paradiz;
@@ -92,13 +91,12 @@
     box-sizing: border-box;
     background-color: getColor('color-backcol');
     margin: 20px auto;
+    color: #fff;
 }
 .footer__contacts--tityl{
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.15;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -116,11 +114,8 @@
     align-items: center;
     text-align: center;
     letter-spacing: $spacing-two;
-    font-family: 'Roboto';
-    font-style: $font-style-one;
-    font-weight: $font-weight-one;
-    font-size: $pixeli-eighteen;
-    line-height: $pixeli-Sixteen;
+    font-size: 16px;
+    line-height: 1.88;
     background-color: getColor('color-hovercol');
     color: getColor('color-bacground');
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -134,8 +129,9 @@
 }
 .footer__button--icon{
     width: 24px;
-    height: 24px;
+    height: 30px;
     margin-left: 24px;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width:767px) {
@@ -187,14 +183,14 @@
             align-items: center;
         }
         .visit{
-            margin-top: 40px;
+            margin-top: 60px;
         }
         .footer__link--mail{
             margin-left: 0%;
         }
         .social__section--footer{
-            margin-left: 78px;
-            margin-right: 78px;
+            margin-left: 73px;
+            margin-right: 73px;
         }
         .social__tityl--footer{
             margin-left: 0%;
@@ -207,153 +203,3 @@
             margin-right: 12px;
         }
 }
-
-// .footer{
-//     background-color: getColor('color-backcol');
-//     height: $pixeli-five;
-//     padding: $pixeli-seven;
-//     display: $display-one;
-//     justify-content: $direkt-one;
-//     text-align: $direkt-one;
-//     flex-direction: $flex-one;
-//     box-sizing: $sizing-one;
-// }
-// .footer > .container{
-//     display: flex;
-//     align-items: center;
-// }
-// .visit{
-//     padding-inline-start: $pixeli-four;
-//     list-style-type: $paradiz;
-// }
-// .visit__info{
-//     font-style: $style;
-//     font-weight: $font-weight-two;
-//     font-size: $pixeli-nine;
-//     line-height: $pixeli-eleven;
-//     letter-spacing: $spacing-one;
-// }
-// .visit__info--address{
-//     font-style: $style;
-//     font-weight: $font-weight-two;
-//     font-size: $pixeli-nine;
-//     line-height: $pixeli-eleven;
-//     letter-spacing: $spacing-one;
-//     color: getColor('color-bacground');
-//     text-decoration: $paradiz;
-// }
-// .footer__link--mail, .footer__link--tel{
-//     font-style: $font-style-one;
-//     font-weight: $font-weight-four;
-//     font-size: $pixeli-nine;
-//     line-height: $pixeli-eighteen;
-//     letter-spacing: $spacing-three;
-//     color: getColor('color-primaty');
-//     text-decoration: none;
-//     transition: color 250ms;
-// }
-// .social__section--footer{
-//     display: $display-one;
-//     flex-direction: $flex-one;
-//     justify-content: $dirkt-three;
-//     box-sizing: $sizing-one;
-//     margin-left: 85px;
-// }
-// .social__tityl--footer{
-//     display: $display-one;
-//     color: getColor('color-bacground');
-//     align-items: $direkt-two;
-//     margin-top: $procent-one;
-// }
-// .social__icon--footer{
-//     display: $display-one;
-//     margin-left: $pixeli-thirteen;
-//     margin-top: $procent-one;
-//     margin-bottom: $procent-one;
-//     padding: $procent-one;
-// }
-// .social__link--footer:hover{
-//     background-color: getColor('color-hovercol');
-//     transition-timing-function: $cubic-one;
-// }
-// .social__link--footer{
-//     display: $display-one;
-//     align-items: $direkt-two;
-//     align-self: $direkt-two;
-//     justify-content: $direkt-two;
-//     width: $pixeli-fourteen;
-//     height: $pixeli-fourteen;
-//     border-radius: $procent-two;
-//     margin-left: $pixeli-fifteen;
-//     margin-bottom: $pixeli-Sixteen;
-//     color: getColor('color-bacground');
-//     background-color: getColor('color-grinvich');
-//     transition: background-color $msec-one;
-// }
-// .boxfooter__footer--linc{
-//     width: $pixeli-eight;
-//     height: $pixeli-eight;
-//     fill: getColor('color-bacground');
-// }
-// .boxfooter{
-//     display: flex;
-//     align-items: center;
-//     fill: getColor('color-primaty');
-// }
-// .footer__contacts{
-//     display: block;
-//     width: 570px;
-//     height: 86px;
-//     margin-left: 100px;
-//     justify-content: flex-end;
-// }
-// .footer__contacts--form{
-//     width: 358px;
-//     height: 50px;
-//     border: 1px solid getColor('color-style');
-//     border-radius: 4px;
-//     padding: 16px 15px;
-//     box-sizing: border-box;
-//     background-color: getColor('color-backcol');
-//     }
-// .footer__contacts--tityl{
-//     font-family: 'Roboto';
-//     font-style: $font-style-one;
-//     font-weight: $font-weight-one;
-//     font-size: $pixeli-nine;
-//     line-height: $pixeli-eighteen;
-//     letter-spacing: $spacing-one;
-//     margin-bottom: 20px;
-//     margin-top: $procent-one;
-//     margin-left: 10px;
-//     color: getColor('color-bacground');
-// }
-// .footer__form{
-//     display: flex;
-//     justify-content: space-between;
-// }
-// .footer__button--text{
-//     display: flex;
-//     align-items: center;
-//     text-align: center;
-//     letter-spacing: $spacing-two;
-//     font-family: 'Roboto';
-//     font-style: $font-style-one;
-//     font-weight: $font-weight-one;
-//     font-size: $pixeli-eighteen;
-//     line-height: $pixeli-Sixteen;
-//     background-color: getColor('color-hovercol');
-//     color: getColor('color-bacground');
-//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-//     border-radius: 4px;
-//     text-decoration: none;
-//     border: none;
-//     width: 200px;
-//     height: 50px;
-//     justify-content: center;
-// }
-// .footer__button--icon{
-//     width: 24px;
-//     height: 24px;
-//     margin-left: 24px;
-// }

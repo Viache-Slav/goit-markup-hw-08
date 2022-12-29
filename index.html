@@ -10,8 +10,8 @@
 </head>
 <body class="body">
     
-    <header class="container header">
-        <a href="WebStudio" class="logo">
+    <header id="Webstudio" class="container header">
+        <a href="#Webstudio" class="logo">
             Web<span class="header__logo--color">Studio</span></a>
         <nav>
             <ul class="header__navigation">
@@ -200,7 +200,7 @@
                             <img src="./images/img(5)(1).jpg" alt="photo" width="270" height="260"/>
                                 <figcaption>
                                     <h4 class="card__name">John Doe</h4>
-                                    <p class="card__department">Frontend Developerr</p>
+                                    <p class="card__department">Frontend Developer</p>
                                     <ul class="social">
                                         <li class="social__list">
                                             <a class="social__link" href="#">
@@ -366,16 +366,16 @@
 
     <footer id="Kontakt" class="footer ">
         <div class="container">
-            <a href="WebStudio" class="footer__logo">
+            <a href="#Webstudio" class="footer__logo">
                 Web<span class="footer__logo--color">Studio</span>
             </a>
             <address>
                 <ul class="visit">
                     <li class="visit__info">
-                        <a href="x m. Warszawa, Aleje Jerozolimskie 21" class="visit__info--address"> x m. Warszawa, Aleje Jerozolimskie 21</a>
+                        <a href="m. Warszawa, Aleje Jerozolimskie 21" class="visit__info--address"> m. Warszawa, Aleje Jerozolimskie 21</a>
                     </li>
                     <li class="visit__info">
-                        <a href="info@devstudio.com"class="footer__link--mail">info@devstudio.com</a>
+                        <a href="info@example.com"class="footer__link--mail">info@example.com</a>
                     </li>
                     <li class="visit__info">
                         <a href="tel:+48111111111"class="footer__link--tel">+48 111 111 111</a>
@@ -476,13 +476,25 @@
                         <textarea class="klient-list-textarea" name="feedback" id="Komentarz" placeholder="Wprowadź tekst" minlength="20"></textarea>
                 </div>
                 
-                <div class="klient-policy">
+                <div>
+                    <label class="custom--checkbox">
+                        <input type="checkbox" />
+                        <img 
+                        width="16px"
+                        height="15px"
+                        src="./images/icon check.png" alt="">
+                        Oświadczam iż akceptuję 
+                        <a class="klient-policy-plik" href="Regulamin">Regulamin</a> i 
+                        <a class="klient-policy-plik" href="Politykę Prywatności">Politykę Prywatności.</a>
+                    </label>
+                </div>
+                <!-- <div class="klient-policy">
                     <input class="modal-form-policy visually-hidden" id="user-policy" type="checkbox" name="policy" required>
                     <label for="user-policy" class="modal-form-policy-text">
                         Oświadczam iż akceptuję 
                         <a class="klient-policy-plik" href="Regulamin">Regulamin</a> i 
                         <a class="klient-policy-plik" href="Politykę Prywatności">Politykę Prywatności.</a></label>
-                </div>
+                </div> -->
 
                 <div class="klient-policy"><button class="klient-button" type="submit">Wyślij</button></div>
             </form>

@@ -45,10 +45,9 @@
 }
 .mobile__menu--agencja{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 40px;
-    line-height: 47px;
+    line-height: 1.18;
     letter-spacing: 0.02em;
     margin: 16px;
     cursor: pointer;
@@ -86,7 +85,7 @@
     width: 231px;
     height: 28px;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.17;
     color: getColor('color-primaty');
     margin-bottom: 0%
 }
@@ -101,10 +100,9 @@
 }
 .mobile__social--link{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 1.22;
     letter-spacing: 0.02em;
     height: 22px;
 }

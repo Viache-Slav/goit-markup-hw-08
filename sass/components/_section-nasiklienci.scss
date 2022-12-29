@@ -4,10 +4,8 @@
     margin: auto;
 }
 .clients__tytul{
-    font-style: $font-style-one;
-    font-weight: $font-weight-one;
     font-size: $pixeli-twenty-two;
-    line-height: $pixeli-twenty-six;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: $spacing-one;
     color: getColor('color-textcol');

@@ -2,16 +2,15 @@
 .header__link{
     list-style-type: none;
     display: flex;
+    margin-left: 210px;
+    padding: 0;
 }
 .link__menu--nav{
     margin-left: 23px;
-    margin-right: 23px;
 }
 .header__link--mail, .header__link--tel{
-    font-style: $font-style-one;
-    font-weight: $font-weight-four;
     font-size: $pixeli-nine;
-    line-height: $pixeli-eighteen;
+    line-height: 1.14;
     letter-spacing: $spacing-three;
     color: getColor('color-primaty');
     text-decoration: none;
@@ -33,8 +32,8 @@
 }
 .header__link--mail:hover,
 .header__link--tel:hover{
-    fill: getColor('color-hovercol');
-    color: getColor('color-hovercol');
+    fill: rgb(33, 150, 243);
+    color: #2196F3;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 

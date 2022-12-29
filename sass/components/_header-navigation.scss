@@ -5,6 +5,8 @@
     list-style-type: none;
     margin-top: 30px;
     margin-bottom: 0px;
+    margin-right: 90px;
+    padding: 0;
 }
 .menu__nav{
     margin-left: 23px;
@@ -13,14 +15,13 @@
 .active::after{
     content: "";
     display: block;
-    border-bottom: 4px solid getColor('color-hovercol');
+    border-bottom: 4px solid #2196F3;
     height: 28px;
 }
+
 .header__navigation--agencies, .header__navigation--contacts, .header__navigation--portfolio{
-    font-style: $font-style-one;
-    font-weight: $font-weight-four;
     font-size: $pixeli-nine;
-    line-height: $pixeli-eighteen;
+    line-height: 1.14;
     letter-spacing: $spacing-three;
     color: getColor('color-textcol');
     text-decoration: none;
@@ -33,7 +34,9 @@
         color: getColor('color-hovercol');
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
-    
+    .active{
+        color: getColor('color-hovercol');
+    }
 
     @media screen and (max-width: 767px){
         .header__navigation{

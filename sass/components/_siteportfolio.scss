@@ -31,7 +31,7 @@
     top: $pixeli-four;
     left: $pixeli-four;
     width: 100%;
-    height: 294px;
+    height: 295px;
     background-color: getColor('color-hovercol');
     transform: translatey($procent-three);
     transition: transform $msec-one ease;
@@ -39,10 +39,8 @@
     align-items: center;
 }
 .overlay__text{
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 1.56;
     letter-spacing: 0.03em;
     color: getColor('color-bacground');
     width: 402px;
@@ -55,23 +53,17 @@
     margin: 20px 24px;
 }
 .sites__card--title{
-    font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: getColor('color-textcol');
     text-decoration: $paradiz;
     margin: 0%;
 }
-.sites__card--title:hover,
-.sites__card--type:hover {
-    text-decoration: underline;
-    text-decoration-color: getColor('color-hovercol');
-}
+
 .sites__card--type{
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: getColor('color-primaty');
     text-decoration: $paradiz;
