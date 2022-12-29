@@ -4,6 +4,7 @@
     padding-bottom: 94px;
 }
 .state__tytul{
+    font-family: 'Roboto';
     font-size: $pixeli-twenty-two;
     line-height: 1.17;
     text-align: center;
@@ -32,6 +33,7 @@
     margin: 0%;
 }
 .card__name{
+    font-family: 'Roboto';
     font-weight: $font-weight-four;
     font-size: $pixeli-eighteen;
     line-height: 1.19;
@@ -40,6 +42,7 @@
     color: getColor('color-textcol');
 }
 .card__department{
+    font-family: 'Roboto';
     font-size: $pixeli-eighteen;
     line-height: 1.19;
     text-align: center;

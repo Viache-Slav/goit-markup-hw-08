@@ -38,6 +38,7 @@
     width: 206px;
 }
 .social__tityl--footer{
+    font-family: 'Roboto';
     display: $display-one;
     color: getColor('color-bacground');
     align-items: $direkt-two;
@@ -113,6 +114,7 @@
     display: flex;
     align-items: center;
     text-align: center;
+    font-family: 'Roboto';
     letter-spacing: $spacing-two;
     font-size: 16px;
     line-height: 1.88;

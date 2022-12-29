@@ -20,6 +20,8 @@
 }
 
 .header__navigation--agencies, .header__navigation--contacts, .header__navigation--portfolio{
+    font-family: 'Roboto';
+    font-weight: 500;
     font-size: $pixeli-nine;
     line-height: 1.14;
     letter-spacing: $spacing-three;
