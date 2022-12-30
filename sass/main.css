@@ -957,6 +957,8 @@ label:focus-within {
 }
 
 .production__box--text {
+  font-family: "Roboto";
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
