@@ -12,8 +12,10 @@
     margin: auto;
 }
 .title__text{
+    font-family: 'Roboto';
+    font-weight: 900;
     font-size: 26px;
-    line-height: 1.62;
+    line-height: 1.66;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -50,8 +52,6 @@
 
 @media screen and (min-width: 1200px){
     .title__text{
-        font-family: 'Roboto';
-        font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
  }
