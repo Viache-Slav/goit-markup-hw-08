@@ -1017,6 +1017,9 @@ label:focus-within {
   .archive__box--icon {
     width: 100%;
   }
+  .archive__title {
+    margin-left: 0;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .archive {
