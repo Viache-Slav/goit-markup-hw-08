@@ -15,24 +15,16 @@
 @media screen and (max-width: 767px){
     .header{
         height: 60px;
-        box-sizing: border-box;
-        position: relative;
-        max-width: 767px;
-        margin: auto;
         padding: 0px 15px;
     }
     .js-open-menu {
         display: flex;
-        align-items: center;
-        justify-content: center;
         background: #FFFFFF;
-        margin: 0;
         padding: 0;
         cursor: pointer;
         border: none;
         border-radius: 50%;
-        position: absolute;
-        right: 15px;
+        margin-left: 290px;
     }
     .js-open-menu:hover,
     .js-open-menu:focus {

@@ -103,7 +103,7 @@
         gap: 30px;
     }
     .sites__card{
-        flex-basis: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 60px) / 2);
         width: 354px;
         height: 440px;
         margin: 0%;
@@ -114,6 +114,7 @@
     .sites__group{
         width: 306px;
         height: 72px;
+        margin: 20px auto 0;
     }
     .overlay__text{
         width: 306px;

@@ -2,11 +2,11 @@
 .header__link{
     list-style-type: none;
     display: flex;
-    margin-left: 210px;
+    margin-left: 317px;
     padding: 0;
 }
 .link__menu--nav{
-    margin-right: 30px;
+    padding-left: 28px;
 }
 .header__link--mail, .header__link--tel{
     font-size: $pixeli-nine;
@@ -46,6 +46,7 @@
 @media screen and (min-width: 768px) and (max-width: 1199px){
     .header__link{
         display: block;
+        margin-left: 73px;
     }
     .header__link--mail, .header__link--tel{
         font-size: 12px;

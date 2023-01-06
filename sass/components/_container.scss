@@ -16,9 +16,8 @@
  @media screen and (min-width: 768px) and (max-width: 1199px) {
     .container{
         max-width: 768px;
-    }
-    .adaptive{
-    width: 738px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
  }
 
@@ -28,9 +27,6 @@
         min-width: 738px;
         margin-top: 0%;
         margin-bottom: 0%;
-    }
-    .adaptive{
-    width: 1170px;
     }
  }
 
