@@ -107,7 +107,7 @@
         flex-basis: calc((100% - 60px) / 3);
     }
     .sites__card--img{
-        width: 370px;
+        max-width: 370px;
     }
     .overlay__text{
         width: 301px;
