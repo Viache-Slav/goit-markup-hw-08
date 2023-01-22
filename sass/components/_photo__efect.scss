@@ -1,0 +1,72 @@
+
+@media screen and (max-width: 767px){
+    .photo__efect{
+        background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url("../images/index_photo/section-1/img-bmp_mobile.jpg");
+            background-position: center top;
+            background-size: 480px 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+}
+@media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx){
+        .photo__efect{
+            background-image: linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+                 url('../images/index_photo/section-1/img-bmp_mobile@2x.jpg');
+  }
+}
+
+
+@media screen and (min-width: 768px){
+    .photo__efect{
+        background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url("../images/index_photo/section-1/img-bmp_tablet.jpg");
+            background-position: center top;
+            background-size: 768px 400px;
+            background-size: cover;
+            background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+    screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px){
+        .photo__efect{
+            background-image: linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+                url('../images/index_photo/section-1/img-bmp_tablet@2x.jpg');
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .photo__efect{
+        background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url("../images/index_photo/section-1/Img-bmp_desctop.jpg");
+            background-position: center top;
+            background-size: 1600px 600px;
+            background-size: cover;
+            background-repeat: no-repeat;
+}
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px){
+    .photo__efect{
+        background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url('../images/index_photo/section-1/Img-bmp_desctop@2x.jpg');
+}
+}

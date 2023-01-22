@@ -1,0 +1,120 @@
+.state{
+    background-color: getColor('color-archivecol');
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.state__title{
+    font-size: $pixeli-twenty-two;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: getColor('color-textcol');
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.state__photo{
+    padding-inline-start: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.state__card{
+    background-color: getColor('color-bacground');
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    flex-basis: calc((100% - 90px) / 4);
+}
+.card__name{
+    font-weight: $font-weight-four;
+    font-size: $pixeli-eighteen;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: getColor('color-textcol');
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.card__department{
+    font-size: $pixeli-eighteen;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: getColor('color-primaty');
+    margin-top: 0;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-bottom: 30px;
+    padding: 0%;
+}
+.social__list{
+    display: flex;
+    align-items: center;
+    fill: getColor('color-primaty');
+}
+.social__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: background-color 250ms;
+    fill: #AFB1B8;
+}
+.social__link:hover,
+.social__link:focus{
+    fill: getColor('color-bacground');
+    background-color: getColor('color-hovercol');
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social__icon{
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width: 767px){
+    .state {
+        padding: 60px 0;
+    }
+    .state__title{
+        font-size: 28px;
+        line-height: 1.18;
+        margin-bottom: 30px;
+    }
+    .state__card{
+        flex-basis: calc((100% - 0px)/1);
+    }
+    .social{
+        width: 206px;
+        height: 44px;
+        margin: 0 auto 24px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .state__title{
+        font-size: 28px;
+        line-height: 1.18;
+        margin-bottom: 30px;
+    }
+    .state__photo{
+        justify-content: center;
+    }
+    .state__card{
+        flex-basis: calc((100% - 60px) / 2);
+    }
+    .social{
+        width: 206px;
+        height: 44px;
+        margin: 0 auto 16px;
+    }
+}

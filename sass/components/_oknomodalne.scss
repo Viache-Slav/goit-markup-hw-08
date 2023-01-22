@@ -1,0 +1,53 @@
+.backdrop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: getColor('color-virtyal');
+}
+.is-hidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.modal{
+    width: 528px;
+    min-height: 581px;
+    background-color: getColor('color-bacground');
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+@media screen and (max-width: 1199px){
+    .modal{
+        width: 450px;
+        min-height: 609px;
+        background-color: getColor('color-bacground');
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        position: absolute;
+    }
+}
+.close-btn{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid getColor('color-bryt');
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icon-close-btn{
+    width: 18px;
+    height: 18px;
+}
+.icon-close-btn:hover,
+.icon-close-btn:focus{
+    fill: getColor('color-hovercol');
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

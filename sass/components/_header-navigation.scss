@@ -1,0 +1,58 @@
+
+
+.header__navigation{
+    display: flex;
+    list-style-type: none;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+.menu__nav{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.active::after{
+    content: "";
+    display: block;
+    border-bottom: 4px solid #2196F3;
+    height: 32px;
+}
+
+.header__navigation--agencies, .header__navigation--contacts, .header__navigation--portfolio{
+    font-weight: 500;
+    font-size: $pixeli-nine;
+    line-height: 1.14;
+    letter-spacing: $spacing-three;
+    color: getColor('color-textcol');
+    text-decoration: none;
+    transition: color 250ms;
+}
+.header__navigation--agencies:hover,
+.header__navigation--portfolio:hover,
+.header__navigation--contacts:hover,
+.header__navigation--agencies:focus,
+.header__navigation--contacts:focus,
+.header__navigation--portfolio:focus{
+    fill: getColor('color-hovercol');
+    color: getColor('color-hovercol');
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.active{
+    color: getColor('color-hovercol');
+}
+
+@media screen and (max-width: 767px){
+    .header__navigation{
+        display: none;
+    }
+}
+@media  screen and (min-width: 768px) and (max-width:1199px) {
+    .menu__nav{
+        margin-left: 25px;
+        margin-right: 44px;
+    }
+    .header__navigation{
+        margin-left: 20px;
+    }
+}

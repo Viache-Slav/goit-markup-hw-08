@@ -1,0 +1,111 @@
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.clients__title{
+    font-size: $pixeli-twenty-two;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: $spacing-one;
+    color: getColor('color-textcol');
+    margin: 0px auto 50px ;
+}
+.clients__box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+}
+
+.clients__card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid getColor('color-satisfaction');
+    fill: getColor('color-ym-py-rym-pym');
+    border-radius: 4px;
+    width: 100%;
+    height: 92px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: border 250ms;
+    list-style-type: none;
+}
+.clients__card--whidth{
+    display: flex;
+    flex-basis: calc((100% - 150px) / 6);
+    padding-left: 0;
+}
+.clients__card--icon1{
+    width: 41px;
+    height: 48px;
+    transition: fill 250ms;
+}
+.clients__card--icon2{
+    width: 40px;
+    height: 53px;
+    transition: fill 250ms;
+}
+.clients__card--icon3{
+    width: 45px;
+    height: 42px;
+    transition: fill 250ms;
+}
+.clients__card--icon4{
+    width: 85px;
+    height: 42px;
+    transition: fill 250ms;
+}
+.clients__card--icon5{
+    width: 63px;
+    height: 47px;
+    transition: fill 250ms;
+}
+.clients__card--icon6{
+    width: 94px;
+    height: 45px;
+    transition: fill 250ms;
+}
+.clients__card:hover, .clients__card:focus{
+    border: 1px solid getColor('color-hovercol');
+    fill: getColor('color-o-la-la');
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (max-width: 767px) {
+    .clients__box{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .clients__card--whidth{
+        display: flex;
+        flex-basis: calc((100% - 30px) / 2);
+    }
+    .clients__title{
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 30px;
+    }
+    .clients{
+        padding: 60px 0px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .clients__box{
+        justify-content: center;
+    }
+    .clients__card--whidth{
+        list-style-type: none;
+        flex-basis: calc((100% - 90px) / 3);
+    }
+    .clients__card{
+        width: 100%;
+    }
+    .clients__title{
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 30px;
+    }
+    .clients{
+        padding: 60px 0px;
+    }
+}
